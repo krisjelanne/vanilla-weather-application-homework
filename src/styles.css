@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+.weather-app {
+    background: #6a92b7;
+    max-width: 800px;
+    margin: 80px auto;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
