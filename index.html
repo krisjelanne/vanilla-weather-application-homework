@@ -12,22 +12,24 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search" placeholder="Enter a city.." required />
-            <input type="submit" value="Search"/>
+        <form class="search-form">
+            <input type="search" placeholder="Enter a city.." required class="search-form-input"/>
+            <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
     <main>
+        <div class="weather-app-data">
         <div>
-    <h1> Manila </h1>
-    <p>
+    <h1 class="weather-app-city"> Manila </h1>
+    <p class="weather-app-details">
         Tuesday 18:15, moderate rain
         <br/>
-        Humidity: 87%, Wind: 7.2km/h
+        Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
     </p>
 </div>
-<div>
-    🌤️ 24°C
+<div class="weather-app-data-container">
+    <div class="weather-app-icon">🌤️</div> <div class="weather-app-temperature">24</div><div class="weather-app-unit">°C</div>
+</div>
 </div>
 </main>
     <footer>This project was coded by <a href="https://github.com/krisjelanne" target="_blank">Krisjel Anne</a>, and is open-sourced on <a href="https://github.com/krisjelanne/vanilla-weather-application-homework" target="_blank">GitHub</a>, and hosted on <a href="https://vanilla-weather-application-project.netlify.app/" target="_blank">Netlify.</a></footer>
