@@ -1,5 +1,5 @@
 body {
-    background: #719192;
+    background: rgba(113, 145, 146);
     font-family: "Arima", system-ui;
     font-optical-sizing: auto;
     font-weight: 700px;
@@ -60,7 +60,7 @@ font-weight: 500;
     justify-content: space-between;
 }
 .search-form-input {
-    background-color: #8fb4b6;
+    background-color: rgba(113, 145, 146, 0.6);
     border: none;
     border-radius: 6px;
     width: 80%;
